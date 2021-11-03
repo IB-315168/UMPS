@@ -1,0 +1,70 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-image: url("../images/bg/bg2.JPG");
+    background-size: cover;
+  }
+
+h1 {
+    background-color: rgba(115, 149, 174, 0.6) ;
+    border: solid rgba(115, 149, 174, 0.6) ;
+    padding: 2%;
+    clear: both;
+    text-align: center;
+}
+
+.authors {
+    overflow: auto;
+    display: inline;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.author_cards {
+    overflow: auto;
+    display: inline;
+    float: left;
+    width: 25%;
+}
+
+.author_cards img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.author_cards figcaption {
+    text-align: center;
+    font-size: x-large;
+    clear: both;
+    background-color: rgb(255, 255, 255);
+}
+
+.contactform {
+    background-color: rgba(255, 255, 255, 0.5) ;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactform * {
+    box-sizing: border-box;
+    margin: 2%;
+    display: block;
+    resize: none;
+}
+
+.contactform input[type=email], .contactform textarea {
+    width: 100%;
+}
+
+.contactform input[type=reset] {
+    float:right;
+    margin-right: 0%;
+}
+
+.contactform input[type=reset], .contactform input[type=submit]{
+    display: inline;
+}

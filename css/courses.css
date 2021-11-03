@@ -1,0 +1,126 @@
+#bgc1{ 
+    background-image: url("../images/bgc/bgc1.jpg");
+    background-size: cover;
+}
+#bgc2{ 
+    background-image: url("../images/bgc/bgc2.jpg");
+    background-size: cover;
+}
+#bgc3{
+    background-image: url("../images/bgc/bgc3.jpg");
+    background-size: cover;
+}
+#bgc4{
+    background-image: url("../images/bgc/bgc4.jpg");
+    background-size: cover;
+}
+
+.image {
+    float: left;
+    margin-top: 10px;
+    margin-left: 1.5%;
+    margin-right: .25%;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 250px;
+}
+
+.description {
+    float: left;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 1.5%;
+    margin-bottom: 10px;
+    width: 64.4%;
+    height: 250px;
+    /* background-color: rgb(124, 135, 231); */
+    font-size: 20px;
+    background-color: rgba(115, 149, 174, 0.8); 
+}
+
+.description * {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.teacher {
+    clear: both;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    width: 95.3%;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.623);
+    border: solid rgba(255, 255, 255, 0.623);
+    word-wrap: break-word;
+    font-size: large;
+    overflow: auto;
+}
+
+.resources {
+    clear: both;
+    margin-top: 10px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    width: 95.3%;
+    height: 132px;
+    border-style: solid;
+    background-color: rgb(168, 168, 168);
+    border-color: rgb(168, 168, 168);
+}
+
+.title {
+    font-size: 32px;
+    clear: both;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    width: 95.3%;
+    height: 71px;
+    background-color: rgba(115, 149, 174, 0.6);
+    border: solid rgba(115, 149, 174, 0.6) ;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.teacherphoto {
+    margin-top: 3px;
+    margin-left: 3px;
+    height: 95%;
+    float: left;
+}
+
+.teacher_description_text {
+    overflow: auto;
+    margin-left: 125px;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.resources_link {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+ul {
+    list-style:none;
+}
+
+h2 {
+    margin-top:7px;
+}
+
+.resources a {
+    text-decoration: none;
+    color: black;
+}
+
+.resources a:hover {
+    color: rgb(221, 221, 221);
+    background-color: rgb(131, 131, 131);
+    padding: 5px;
+}

@@ -1,0 +1,262 @@
+/* <--- HOMEPAGE CSS ---> */
+
+#bg1 {
+  background-image: url("../images/bg/bg1.JPG");
+  background-size: cover;
+}
+
+.hpbig{
+    height: 70% !important;
+}
+
+.hpsmall{
+    height: 10% !important;
+}
+
+.hpcontainer{
+    width: 47%;
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+.hpchildcontainer {
+    width: 100%;
+    height: 50%;
+}
+
+.hpimg {
+    float: left;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+    filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.hpimg:hover{
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.hpcurrent{
+    height: 335px;
+    width: 100%;
+    overflow: auto;
+}
+
+.hpcurrentTitle{
+  background-color: #7395AE;
+  padding:2%;
+}
+
+.hpinfo{
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: rgba(255,255,255,0.6);
+}
+
+.hpcurrent h5{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.left{
+  float: left !important;
+  margin-left: 3%;
+}
+
+.right{
+  float: right !important;
+  margin-right: 3%;
+}
+
+.hpnews{
+  height: 200px;
+  width: 100%;
+  display: block;
+  overflow: auto;
+}
+
+.hpsmall h4{
+  clear: both;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  background-color: #7395AE;
+  overflow: auto;
+}
+
+.hpnewslist{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 5%;
+  background-color: rgba(255,255,255,0.6);
+}
+
+.hpcontainer table{
+    border-style: solid;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.hpcontainer * {margin: 0; box-sizing: border-box;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0; 
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background-color: rgba(255,255,255,0.6);
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #000000;
+  color: white !important
+}
+
+.days li span:hover{
+  padding: 5px;
+  background: #000000;
+  color: white !important
+}
+
+/* <--- END OF HOMEPAGE CSS ---> */
+
+/* <--- SCHEDULE CSS ---> */
+
+#bg2 {
+  background-image: url("../images/bg/bg3.JPG");
+  background-size: cover;
+}
+
+.scschedule, .scschedule th, .scschedule td{
+  height: 60%;
+  width: 100%;
+  border-style: solid;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: rgb(175, 175, 175);
+}
+
+.scschedule td {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.scschedule th{
+  background-color: grey;
+  text-align: center;
+  font-size: 30px;
+}
+
+.schours{
+  background-color: gainsboro;
+  text-align: left;
+}
+
+.schours span{
+  padding-left: 5%;
+  font-size: 30px;
+}
+
+.scclass{
+  height: 90%;
+}
+
+.scsdj1{
+  background-color: burlywood;
+}
+
+.scdma1{
+  background-color: greenyellow;
+}
+
+.scrwd1{
+  background-color: pink;
+}
+
+.scclass h4{
+  text-align: center;
+  padding: 5%;
+}
+
+.scclass p{
+  padding: 1%;
+  font-size: 13px;
+}
+
+.scclass small{
+  font-size: 7px;
+  color: rgb(85, 85, 85);
+}
+
+.scclass:hover{
+  height: 100%;
+  background-color: darkslategray;
+  color: white;
+}
+
+.scFooter{
+  bottom: 0;
+  padding: 2%;
+  text-align: center;
+}
+
+/* <--- END OF SCHEDULE CSS ---> */

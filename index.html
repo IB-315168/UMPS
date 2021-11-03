@@ -3,42 +3,43 @@
   <head>
       <meta charset="utf-8">
       <title>UMPS - Homepage</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <link href="css/style.css" type="text/css" rel="stylesheet"/>
       <link href="css/global.css" type="text/css" rel="stylesheet"/>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       <link rel="icon" href="images/favicon.png">
   </head>
   <body id="bg1">
 
-    <div class="navbar">
-      <table>
-          <tr>
-              <td colspan="2" rowspan="2">
-                  <a href="index.html"></a><img src="images/logo.PNG"></a>
-              </td>
-              <td><a href="pages/SEP.html">SEP1</a></td>
-              <td><a href="pages/RWD.html">
-                      <p>RWD1</p>
-                  </a></td>
-              <td colspan="2" rowspan="2"><a href="pages/schedule.html">
-                      <p>Schedule</p>
-                  </a></td>
-              <td colspan="2" rowspan="2"><a href="pages/contact.html">
-                      <p>Contact</p>
-                  </a></td>
-              <td colspan="2" rowspan="2"><a href="index.html">
-                      <p>Home</p>
-                  </a></td>
-          </tr>
-          <tr>
-              <td><a href="pages/DMA.html">
-                      <p>DMA1</p>
-                  </a></td>
-              <td><a href="pages/SDJ.html">
-                      <p>SDJ1</p>
-                  </a></td>
-          </tr>
-      </table>
-  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.PNG" width="150" height="150"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Courses
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="pages/SEP.html">SEP1</a></li>
+                        <li><a class="dropdown-item" href="pages/DMA.html">DMA1</a></li>
+                        <li><a class="dropdown-item" href="pages/SDJ.html">SDJ1</a></li>
+                        <li><a class="dropdown-item" href="pages/RWD.html">RWD1</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="pages/schedule.html">Schedule</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="pages/contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
 
     <div class="hpcontainer left">
         <div class="hpchildcontainer">

@@ -9,9 +9,10 @@
   max-height: 500px !important;
 }
 
-.col{
+.col-md-6{
   padding: 0 !important;
-  max-height: inherit !important;
+  flex:none !important;
+  width: 49% !important;
 }
 
 .hpsmall{
@@ -92,7 +93,7 @@ hr{
 }
 
 .hpnews{
-  max-height: 500px;
+  max-height: 361px;
   width: 100%;
   display: block;
   overflow: auto;
@@ -201,12 +202,28 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  .row{
+    max-height: 1900px !important;
+  }
 
-  .col{
-    display: block !important;
-    width: 100% !important;
+  .hpcarousel img{
+    max-height: 400px !important;
   }
   
+  .col-md-6{
+    max-height: 400px !important;
+    flex: 0 0%;
+    width: 100% !important;
+  }
+
+  .hpcarousel{
+    margin-right: 0;
+  }
+
+  .hpcurrentCol{
+    margin-left: 0;
+  }
+
 }
 
 /* <--- END OF HOMEPAGE CSS ---> */

@@ -224,11 +224,31 @@ body {
     margin-left: 0;
   }
 
+  .scschedule{
+    display: none;
+  }
+
+  .onlyMobile{
+    display: inline !important;
+  }
+
+  .scschedule tr td:first-child{
+    width: 100px !important;
+  }
+
+  .scclass{
+    width: 300px !important;
+  }
+
 }
 
 /* <--- END OF HOMEPAGE CSS ---> */
 
 /* <--- SCHEDULE CSS ---> */
+
+.onlyMobile{
+  display: none;
+}
 
 #bg2 {
   background-image: url("../images/bg/bg3.JPG");

@@ -26,7 +26,7 @@ h1 {
     overflow: auto;
     display: inline;
     float: left;
-    width: 25%;
+    width: 100%;
 }
 
 .author_cards img{
@@ -67,4 +67,16 @@ h1 {
 
 .contactform input[type=reset], .contactform input[type=submit]{
     display: inline;
+}
+@media screen and (max-width:767.8px) {
+
+    .contactform {
+    background-color: rgba(255, 255, 255, 0.5) ;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
 }

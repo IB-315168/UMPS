@@ -147,6 +147,7 @@ body {
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  
 }
 
 .month .prev {
@@ -160,9 +161,11 @@ body {
 }
 
 .weekdays {
+  display: flex;
   margin: 0;
   padding: 2% 0;
   background-color: #ddd;
+  flex-wrap: nowrap;
 }
 
 .weekdays li {

@@ -93,7 +93,7 @@ hr{
 }
 
 .hpnews{
-  max-height: 361px;
+  max-height: 351px;
   width: 100%;
   display: block;
   overflow: auto;
@@ -180,7 +180,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   background-color: rgba(255,255,255,0.6);
-  padding: 10px;
+  padding: 5%;
 }
 
 .grid-item {

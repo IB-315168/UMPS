@@ -23,10 +23,14 @@ h1 {
 }
 
 .author_cards {
-    overflow: auto;
     display: inline;
     float: left;
     width: 100%;
+}
+
+figcaption{
+    height: 120px;
+    overflow: auto;
 }
 
 .author_cards img{

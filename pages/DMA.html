@@ -4,89 +4,124 @@
 <head>
     <title>UMPS - DMA1 Course</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="../css/courses.css" type="text/css" rel="stylesheet">
     <link href="../css/global.css" type="text/css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <link rel="icon" href="../images/favicon.png">
 </head>
 
 <body id="bgc2">
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../images/logo.PNG" width="150" height="150"
+                        class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Courses
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="SEP.html">SEP1</a></li>
+                                <li><a class="dropdown-item disabled" href="DMA.html">DMA1</a></li>
+                                <li><a class="dropdown-item" href="SDJ.html">SDJ1</a></li>
+                                <li><a class="dropdown-item" href="RWD.html">RWD1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="schedule.html">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"><img src="../images/logo.PNG" width="150" height="150"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Courses
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="SEP.html">SEP1</a></li>
-                          <li><a class="dropdown-item disabled" href="DMA.html">DMA1</a></li>
-                          <li><a class="dropdown-item" href="SDJ.html">SDJ1</a></li>
-                          <li><a class="dropdown-item" href="RWD.html">RWD1</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="schedule.html">Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-s">
+                <div class="title">
+                    <h2>Discrete Mathematics</h2>
+                </div>
             </div>
         </div>
-    </nav>
-
-    <div class="title">
-        <h2>Discrete Mathematics</h2>
-    </div>
-    <div class="image">
-        <img src="../images/WebDevelop.jpg" alt="yes" class="img">
-    </div>
-    <div class="description">
-        <p>Basic arithmetic / Binary and hexadecimal numbers</p>
-        <p>Divisibility and modulo arithmetic / Functions</p>
-        <p>Sequences, summation and recursion</p>
-        <p>Algorithm efficiency, Big O and sorting.</p>
-        <p>Introduction to trees and graphs / Data structures: sets, maps and hashing</p>
     </div>
 
-    <div class="teacher">
-        <div class="teacherphoto">
-            <img src="../images/DMA_L.png" alt="Discrete Mathematics Lecturer" class="teacherphoto">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="image">
+                    <img src="../images/WebDevelop.jpg" alt="yes" class="img">
+                </div>
+                <div class="description">
+                    <p>Basic arithmetic / Binary and hexadecimal numbers</p>
+                    <p>Divisibility and modulo arithmetic / Functions</p>
+                    <p>Sequences, summation and recursion</p>
+                    <p>Algorithm efficiency, Big O and sorting.</p>
+                    <p>Introduction to trees and graphs / Data structures: sets, maps and hashing</p>
+                </div>
+            </div>
         </div>
-        <p class="teacher_description_text">
-            Io Odderskov <br>
-            email: IOOD@via.dk
-        </p>
+
+    </div>
+    
+
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-s">
+                <div class="teacher">
+                    <div class="teacherphoto">
+                        <img src="../images/DMA_L.png" alt="Discrete Mathematics Lecturer" class="teacherphoto">
+                    </div>
+                    <p class="teacher_description_text">
+                        Io Odderskov <br>
+                        email: IOOD@via.dk
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="resources">
-        <ul>
-            <li>
-                <a href="https://applications.itslearning.com/Resource/ViewFile.aspx?mode=FileOnly&Accessibility=False&allowedhtmlcodelevel=LessRestricted&ApiSessionId=pw0y3ya40hj5al55zzy1tq55&ContextRole=Learner&countrycode=DK&CustomerId=3314&educationsegment=0&Encoding=utf8&extrauserinformationpermissions=None&FirstName=Wojciech&isextensionmanager=False&itslearningenvironmentid=eu1&itslearningversion=3.123.0.569&Language=en-GB&LastName=Rusinski&LearningObjectId=265598032&LearningObjectInstanceId=382261073&Locale=pl-PL&LocationId=22134&OlsonTimeZoneId=Europe%2fCopenhagen&openedforpreview=False&OpenedFromCourse=True&Permissions=Read%2c+Participate&personid=496570&ReadOnly=False&Role=Learner&Use12HTimeFormat=False&UserId=149958779&UserName=317547%40viauc.dk&userrightsprivacy=None&WindowsTimeZoneId=Central+European+Standard+Time&Timestamp=2021-10-06T00%3a30%3a47&EditInBrowser=false&isPopUp=true&Signature=5eff390b49a36a1567634f7339c0ea9b"
-                    class="resources_link">Learning Objectives</a>
-            </li>
-            <li>
-                <a href="https://via.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1927174"
-                    class="resources_link">Basic Arithmetic Exercises</a>
-            </li>
-            <li>
-                <a href="https://via.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1927171"
-                    class="resources_link">Hard Basic Arithmetic Exercise</a>
-            </li>
-            <li>
-                <a href="https://via.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1934803"
-                    class="resources_link">Basic Arithmetic Lecture Notes</a>
-            </li>
-        </ul>
+    <div class="container">
+        <div class="resources">
+            <ul>
+                <li>
+                    <a href="https://applications.itslearning.com/Resource/ViewFile.aspx?mode=FileOnly&Accessibility=False&allowedhtmlcodelevel=LessRestricted&ApiSessionId=pw0y3ya40hj5al55zzy1tq55&ContextRole=Learner&countrycode=DK&CustomerId=3314&educationsegment=0&Encoding=utf8&extrauserinformationpermissions=None&FirstName=Wojciech&isextensionmanager=False&itslearningenvironmentid=eu1&itslearningversion=3.123.0.569&Language=en-GB&LastName=Rusinski&LearningObjectId=265598032&LearningObjectInstanceId=382261073&Locale=pl-PL&LocationId=22134&OlsonTimeZoneId=Europe%2fCopenhagen&openedforpreview=False&OpenedFromCourse=True&Permissions=Read%2c+Participate&personid=496570&ReadOnly=False&Role=Learner&Use12HTimeFormat=False&UserId=149958779&UserName=317547%40viauc.dk&userrightsprivacy=None&WindowsTimeZoneId=Central+European+Standard+Time&Timestamp=2021-10-06T00%3a30%3a47&EditInBrowser=false&isPopUp=true&Signature=5eff390b49a36a1567634f7339c0ea9b"
+                        class="resources_link">Learning Objectives</a>
+                </li>
+                <li>
+                    <a href="https://via.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1927174"
+                        class="resources_link">Basic Arithmetic Exercises</a>
+                </li>
+                <li>
+                    <a href="https://via.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1927171"
+                        class="resources_link">Hard Basic Arithmetic Exercise</a>
+                </li>
+                <li>
+                    <a href="https://via.itslearning.com/LearningToolElement/ViewLearningToolElement.aspx?LearningToolElementId=1934803"
+                        class="resources_link">Basic Arithmetic Lecture Notes</a>
+                </li>
+            </ul>
+        </div>
     </div>
+
 
     <footer>
         <a href=""><img src="../images/facebook.png"></a>

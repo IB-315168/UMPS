@@ -93,7 +93,7 @@ hr{
 }
 
 .hpnews{
-  max-height: 361px;
+  max-height: 351px;
   width: 100%;
   display: block;
   overflow: auto;
@@ -176,29 +176,28 @@ body {
   text-align: center;
 }
 
-.days {
-  padding: 3% 0;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
   background-color: rgba(255,255,255,0.6);
-  margin: 0;
+  padding: 5%;
 }
 
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.5%;
+.grid-item {
+  padding: 5%;
+  font-size: 12px;
   text-align: center;
   margin-bottom: 2%;
-  font-size:12px;
   color: #777;
 }
 
-.days li .active {
+.grid-item .active {
   padding: 5%;
   background: #000000;
   color: white !important
 }
 
-.days li span:hover{
+.grid-item span:hover{
   padding: 5%;
   background: #000000;
   color: white !important
